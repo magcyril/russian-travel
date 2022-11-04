@@ -1,0 +1,14 @@
+.lang-links {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  align-items: end;
+  padding-bottom: 5px;
+}
+
+@media screen and (max-width: 544px) {
+  .lang-links {
+    padding-bottom: 17px;
+  }
+}

@@ -1,0 +1,6 @@
+.lang-links__item {
+}
+
+.lang-links__item:nth-child(1) {
+  margin-right: 18px;
+}

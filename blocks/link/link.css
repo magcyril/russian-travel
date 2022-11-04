@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../../vendor/fonts/Inter-Regular.woff2?v=3.19') format('woff2'),
+       url('../../vendor/fonts/Inter-Regular.woff?v=3.19') format('woff');
+}
+
+.link {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #fff;
+  text-decoration: none;
+  transition: opacity 1s linear;
+}
+
+.link:hover {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 544px) {
+  .link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
