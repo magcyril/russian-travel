@@ -1,0 +1,28 @@
+.place__website {
+  grid-area: website;
+  align-self: end;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  min-height: 46px;
+}
+
+.place__website::before {
+  display: block;
+  content: 'URL';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.2em;
+  color: #aaa;
+}
+
+@media screen and (max-width: 544px) {
+  .place__website {
+    margin: 0 16px 0;
+  }
+}
