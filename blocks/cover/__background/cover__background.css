@@ -12,7 +12,7 @@
 }
 
 .cover__background:hover::before {
-  background-color: rgba(0,0,0,.7);
+  background-color: rgba(0,0,0,.6);
 }
 
 .cover__background::before {

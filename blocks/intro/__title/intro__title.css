@@ -6,23 +6,8 @@
   color: #fff;
 }
 
-@media screen and (max-width: 1152px) {
+@media screen and (max-width: 690px) {
   .intro__title {
-    margin-left: 48px;
-  }
-}
-
-@media screen and (max-width: 896px) {
-  .intro__title {
-    max-width: none;
-    margin: 0 0 40px;
-  }
-}
-
-@media screen and (max-width: 544px) {
-  .intro__title {
-    max-width: none;
-    margin: 0 0 40px;
     font-size: 32px;
     line-height: 35px;
   }

@@ -1,5 +1,5 @@
-.content-copyright__author {
-  margin: 0;
+.footer__copyright {
+  color: #fff;
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
@@ -7,8 +7,7 @@
 }
 
 @media screen and (max-width: 730px) {
-  .content-copyright__author {
-    font-size: 14px;
+  .footer__copyright {
     line-height: 14px;
   }
 }
